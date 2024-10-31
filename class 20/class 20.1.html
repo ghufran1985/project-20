@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P>a fuction can be accesed varible defined inside the fuction </P>
+    <button onclick="B1()">click me</button>
+    <P id="A"></P>
+    <P id="B"></P>
+    <script>
+        var B=200
+        function B1(){
+         var C=12
+         document.getElementById("A") .innerHTML= C*B
+        }
+        document.getElementById("B") .innerHTML= C
+
+    </script>
+</body>
+</html>
